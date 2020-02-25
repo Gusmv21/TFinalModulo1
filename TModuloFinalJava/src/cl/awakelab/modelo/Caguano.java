@@ -13,6 +13,7 @@ public class Caguano extends Carro {
 	private int alcanceTiro;//aun nose bien cual tipo de atributo ponerle
 	private String colorConfeti;
 	
+	
 	public Caguano(int cantOcupantes, Date fechaIngresoInstitucion, String ubicacion, 
 			int alcanceTiro, String colorConfeti){
 		super(cantOcupantes, fechaIngresoInstitucion, ubicacion);
@@ -43,5 +44,5 @@ public class Caguano extends Carro {
 		return "Caguano [alcanceTiro=" + alcanceTiro + ", colorConfeti=" + colorConfeti + "]";
 	}
 	
-	//nuevo
+	
 }
