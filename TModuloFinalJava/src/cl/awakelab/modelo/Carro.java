@@ -36,5 +36,34 @@ public class Carro {
 		return ubicacion;
 
 	}
+	//get de los tres atributos y set de fecha y cant ocupantes
+	
+	public int getCantOcupantes() {
+		return cantOcupantes;
+	}
+
+	public void setCantOcupantes(int cantOcupantes) {
+		this.cantOcupantes = cantOcupantes;
+	}
+
+	public Date getFechaIngresoInstitucion() {
+		return fechaIngresoInstitucion;
+	}
+
+	public void setFechaIngresoInstitucion(Date fechaIngresoInstitucion) {
+		this.fechaIngresoInstitucion = fechaIngresoInstitucion;
+	}
+
+	public String getUbicacion() {
+		return ubicacion;
+	}
+//to string clase carro
+	@Override
+	public String toString() {
+		return "Carro [cantOcupantes=" + cantOcupantes + ", fechaIngresoInstitucion=" + fechaIngresoInstitucion
+				+ ", ubicacion=" + ubicacion + "]";
+	}
+	
+	
 
 }
