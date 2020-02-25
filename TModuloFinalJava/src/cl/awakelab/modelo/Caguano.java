@@ -43,4 +43,5 @@ public class Caguano extends Carro {
 		return "Caguano [alcanceTiro=" + alcanceTiro + ", colorConfeti=" + colorConfeti + "]";
 	}
 	
+	//nuevo
 }
