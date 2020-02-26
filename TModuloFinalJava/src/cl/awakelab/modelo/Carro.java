@@ -74,8 +74,7 @@ public class Carro {
 				+ ", ubicacion: ("+ubicacionA+","+ubicacionB+")";
 	}
 	
-	System.out.println(toString());
+
 }
 
 	
-}
