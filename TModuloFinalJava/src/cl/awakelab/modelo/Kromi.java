@@ -3,22 +3,20 @@
  */
 package cl.awakelab.modelo;
 
-import java.util.Date;
+import java.util.*;
 
 /**
  * @author Gu
  *
  */
 public class Kromi extends Carro{
-	
-
 	private int anoFabricacion;
 	private String marca;
 	
-	//constructor kormis
-	public Kromi(int cantOcupantes, Date fechaIngresoInstitucion, String ubicacion, 
+	//constructor kormis	
+	public Kromi(int cantOcupantes, Date fechaIngresoInstitucion, int ubicacionA, int ubicacionB,
 			int anoFabricacion, String marca) {
-		super(cantOcupantes, fechaIngresoInstitucion, ubicacion);
+		super(cantOcupantes, fechaIngresoInstitucion, ubicacionA, ubicacionB);
 		this.anoFabricacion = anoFabricacion;
 		this.marca = marca;
 		

@@ -13,10 +13,10 @@ public class Caguano extends Carro {
 	private int alcanceTiro;//aun nose bien cual tipo de atributo ponerle
 	private String colorConfeti;
 	
-	
-	public Caguano(int cantOcupantes, Date fechaIngresoInstitucion, String ubicacion, 
+				
+	public Caguano(int cantOcupantes, Date fechaIngresoInstitucion, int ubicacionA, int ubicacionB,
 			int alcanceTiro, String colorConfeti){
-		super(cantOcupantes, fechaIngresoInstitucion, ubicacion);
+		super(cantOcupantes, fechaIngresoInstitucion, ubicacionA, ubicacionB);
 		this.alcanceTiro = alcanceTiro;
 		this.colorConfeti = colorConfeti;
 	}

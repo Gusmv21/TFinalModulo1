@@ -31,8 +31,6 @@ public class Carro {
 		this.fechaIngresoInstitucion = fechaIngresoInstitucion;
 		this.ubicacionA = Math.random() * 15;
 		this.ubicacionB = Math.random() * 15;
-
-		
 	}
 
 	//get y set de los atributos
