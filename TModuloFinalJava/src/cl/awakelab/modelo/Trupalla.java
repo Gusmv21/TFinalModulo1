@@ -14,7 +14,7 @@ public class Trupalla extends Carro {
 	
 	public Trupalla(int cantOcupantes, String fechaIngresoInstitucion, int fila, int columna, String nombreManipulador) {
 		super(cantOcupantes, fechaIngresoInstitucion,  fila, columna);
-		this.nivelArmadura = Math.random()*6;
+		this.nivelArmadura = Math.random(1-5)+5;
 		this.nombreManipulador = nombreManipulador;
 	}
 	//get de ambos atribtos, set solo de nombre manipulador
