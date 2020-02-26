@@ -26,7 +26,7 @@ public class Carro {
 	 * @param ubicacionB;
 	 */
 
-	public Carro(int cantOcupantes, Date fechaIngresoInstitucion, String ubicacion) {
+	public Carro(int cantOcupantes, Date fechaIngresoInstitucion, int ubicacionA, int ubicacionB) {
 		this.cantOcupantes = cantOcupantes;
 		this.fechaIngresoInstitucion = fechaIngresoInstitucion;
 		this.ubicacionA = Math.random() * 15;
@@ -76,7 +76,7 @@ public class Carro {
 				+ ", ubicacion: ("+ubicacionA+","+ubicacionB+")";
 	}
 	
-	
+	System.out.println(toString());
 }
 
 	
