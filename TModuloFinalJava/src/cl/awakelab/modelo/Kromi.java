@@ -14,7 +14,7 @@ public class Kromi extends Carro{
 	private String marca;
 	
 	//constructor kormis	
-	public Kromi(int cantOcupantes, Date fechaIngresoInstitucion, int ubicacionA, int ubicacionB,
+	public Kromi(int cantOcupantes, String fechaIngresoInstitucion, int ubicacionA, int ubicacionB,
 			int anoFabricacion, String marca) {
 		super(cantOcupantes, fechaIngresoInstitucion, ubicacionA, ubicacionB);
 		this.anoFabricacion = anoFabricacion;

@@ -3,7 +3,7 @@
  */
 package cl.awakelab.modelo;
 
-import java.util.Date;
+
 
 /**
  * @author Gu
@@ -14,7 +14,7 @@ public class Caguano extends Carro {
 	private String colorConfeti;
 	
 				
-	public Caguano(int cantOcupantes, Date fechaIngresoInstitucion, int ubicacionA, int ubicacionB,
+	public Caguano(int cantOcupantes, String fechaIngresoInstitucion, int ubicacionA, int ubicacionB,
 			int alcanceTiro, String colorConfeti){
 		super(cantOcupantes, fechaIngresoInstitucion, ubicacionA, ubicacionB);
 		this.alcanceTiro = alcanceTiro;
